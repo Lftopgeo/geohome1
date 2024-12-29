@@ -1,0 +1,14 @@
+{
+  "name": "geohome-project",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "project"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w project",
+    "build": "npm run build -w project",
+    "lint": "npm run lint -w project",
+    "preview": "npm run preview -w project"
+  }
+}
